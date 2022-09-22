@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.testa{
+    justify-content: space-between;
+}
+
+.testa, .t-sin, .t-dx{
+    display: flex;
+    align-items: center;
+}
+
+div > *{
+    margin: 30px 30px 10px 5px;
+}
+
+
+
+

@@ -6,11 +6,13 @@
 }
 
 /* header */
+
 header{
     background-color: white;
     position: fixed;
     width: 100%;
     z-index: 1;
+    top: 0;
 }
 
 .testa{
@@ -23,8 +25,24 @@ header{
 }
 
 div > *{
-    margin: 30px 30px 10px 5px;
+    margin: 30px 30px 25px 5px;
 }
+
+#inizia{
+    background-color: #2361FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* main */
+
+/* Titolone */
+section{
+    background-color: #B4D0E7;
+    padding-top: 100px;
+}
+
 
 
 

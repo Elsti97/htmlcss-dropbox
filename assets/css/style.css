@@ -24,15 +24,16 @@ header{
     align-items: center;
 }
 
-div > *{
+.margin-ok > *{
     margin: 30px 30px 25px 5px;
 }
 
-#inizia{
+.botton-blue{
     background-color: #2361FF;
     color: white;
     padding: 10px 15px;
     border: none;
+    margin-right: 5px;
 }
 
 /* main */
@@ -40,8 +41,41 @@ div > *{
 /* Titolone */
 section{
     background-color: #B4D0E7;
-    padding-top: 100px;
+    padding-top: 200px;
 }
+
+.pt-1{
+    width: 65%;
+    margin: auto;
+}
+
+h1{
+    font-size: 5.5rem;
+}
+
+i{
+    font-size: 3rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-sx{
+    font-size: 1.2rem;
+    flex-basis: 40%;
+}
+
+.container-dx{
+    flex-basis: 60%;
+}
+
+.container-dx > img{
+    width: 100%;
+}
+
+
 
 
 

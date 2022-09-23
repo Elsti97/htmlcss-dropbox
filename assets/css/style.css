@@ -42,6 +42,10 @@
     margin-top: 2.5rem;
 }
 
+.margin-susu{
+    margin-top: 7rem;
+}
+
 /* header */
 
 header{
@@ -235,6 +239,35 @@ h4{
     flex-basis: 25%;
 }
 
+/* partner drop */
+
+.partner-sx > img{
+    max-width: 100%;
+}
+
+.partner-sx{
+    flex-basis: 60%;
+}
+
+.partner-dx{
+    flex-basis: 35%;
+    font-size: 1.3rem;
+}
+
+.partner-dx > h3{
+    line-height: 2rem;
+}
+
+.partner-dx > p{
+    margin: 1.5rem 0 2rem 0;
+}
+
+.botton-white{
+    background-color: white;
+    border: 1px solid #313131;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
 
 
 

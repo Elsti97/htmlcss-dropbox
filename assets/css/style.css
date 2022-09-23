@@ -136,11 +136,12 @@ input[type='radio']:checked:after {
 /* colonne */
 .colonne{
     margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: calc((100%/3)) -10px;
 }
 .col-32{
-    width: calc((100%/3) -50px);
     border: 1px solid #D0D0D3;
-    flex-basis: 33%;
 }
 
 .target{

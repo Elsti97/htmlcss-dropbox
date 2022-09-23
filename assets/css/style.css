@@ -15,6 +15,10 @@
     justify-content: space-between;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .flex-around{
     display: flex;
     justify-content: space-around;
@@ -268,6 +272,30 @@ h4{
     padding: 10px 15px;
     font-size: 1rem;
 }
+
+/* 6 tabelle */
+.tabelle{
+    width: calc((100%/3)-10px);
+}
+
+.tab{
+    flex-basis: 30%;
+}
+
+.tab > img{
+    max-width: 100%;
+}
+
+.tab > h3{
+    font-size: 1.5rem;
+}
+
+.tab > p{
+    margin: 3rem 0;
+    font-size: 1.2rem;
+}
+
+
 
 
 

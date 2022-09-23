@@ -140,8 +140,9 @@ input[type='radio']:checked:after {
     justify-content: space-between;
     width: calc((100%/3)) -10px;
 }
-.col-32{
+.col-30{
     border: 1px solid #D0D0D3;
+    flex-basis: 30%;
 }
 
 .target{
@@ -176,7 +177,7 @@ ul{
 li{
     list-style: none;
     text-indent: -10px;
-    padding: 1rem 0 0.5rem 0.8rem;
+    padding: 1rem 0 0.5rem 0.5rem;
 }
 
 .compra{

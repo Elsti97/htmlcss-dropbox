@@ -24,6 +24,11 @@
     justify-content: space-around;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
 .border-lg{
     border: 1px solid #D0D0D3;
 }
@@ -297,6 +302,51 @@ h4{
 }
 
 /* sponsors */
+.quadratone{
+    width: calc(100%/3);
+    height: calc(100vw/3);
+}
+
+.quadrati{
+    width: 50%;
+    height: 50%;
+}
+
+.q-1{
+    background-color: #A2D39B;
+}
+
+.q-2{
+    background-color: #61092B;
+}
+
+.q-3{
+    background-color: #2893CE;
+}
+
+.q-4{
+    background-color: #F8261C;
+}
+
+.q-big{
+    background-color: #F5F5F5;
+}
+
+.q-5{
+    background-color: #D51F1F;
+}
+
+.q-6{
+    background-color: #B4D0E7;
+}
+
+.q-7{
+    background-color: #0D2481;
+}
+
+.q-8{
+    background-color: #FCD830;
+}
 
 
 

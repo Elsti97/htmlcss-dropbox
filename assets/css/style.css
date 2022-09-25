@@ -59,12 +59,20 @@
     margin-top: 7rem;
 }
 
+.margin-tanto{
+    margin: 8rem 0 5rem 0;
+}
+
 .bg-grey{
     background-color: #F5F5F5;
 }
 
 .padding-3{
     padding: 3rem;
+}
+
+.padding-giu{
+    padding: 4rem 0;
 }
 
 .half-width{
@@ -85,7 +93,7 @@ header{
     justify-content: space-between;
 }
 
-.testa, .t-sin, .t-dx{
+.testa, .t-sin, .t-dx, .dropazzurro{
     display: flex;
     align-items: center;
 }
@@ -151,7 +159,6 @@ h1{
 
 h2{
     font-size: 3rem;
-    margin: 8rem 0 5rem 0;
 }
 
 div > label{
@@ -361,7 +368,19 @@ h4{
 .q-8{
     background-color: #FCD830;
 }
- 
+
+/* dropbox azzurro */
+.color-b{
+    color: #61092B;
+}
+.noborder{
+    border-style: none;
+}
+
+/* FAQ */
+.faq > *{
+    border-bottom: 1px solid #999999;
+}
 
 
 

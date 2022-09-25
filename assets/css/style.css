@@ -51,8 +51,24 @@
     margin-top: 2.5rem;
 }
 
+.margin-su-giu{
+    margin: 3rem 0;
+}
+
 .margin-susu{
     margin-top: 7rem;
+}
+
+.bg-grey{
+    background-color: #F5F5F5;
+}
+
+.padding-3{
+    padding: 3rem;
+}
+
+.half-width{
+    width: 50%;
 }
 
 /* header */
@@ -310,10 +326,12 @@ h4{
 .quadrati{
     width: 50%;
     height: 50%;
+    align-items: center;
 }
 
 .q-1{
     background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
 }
 
 .q-2{
@@ -326,10 +344,6 @@ h4{
 
 .q-4{
     background-color: #F8261C;
-}
-
-.q-big{
-    background-color: #F5F5F5;
 }
 
 .q-5{
@@ -347,6 +361,7 @@ h4{
 .q-8{
     background-color: #FCD830;
 }
+ 
 
 
 

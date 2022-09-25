@@ -394,9 +394,13 @@ footer{
 
 .col{
     color: white;
-    font-size: 1.2rem;
     line-height: 2;
     padding: 7rem 0 4rem 0;
+}
+
+.col > h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .dividendo{

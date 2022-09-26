@@ -453,7 +453,7 @@ footer{
     display: block;
 }
 
-.hover-i:hover > .fa-angle-down{
+.hover-i:hover .fa-angle-down{
     transform: rotate(180deg);
 }
 

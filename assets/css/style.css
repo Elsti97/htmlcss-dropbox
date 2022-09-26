@@ -436,14 +436,17 @@ footer{
 /* Hover */
 .t-sin > span:hover, .t-dx > span:hover{
     border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 .botton-blue:hover{
     background-color: #378CFF;
+    cursor: pointer;
 }
 
 .botton-white:hover{
     color: gray;
+    cursor: pointer;
 }
 
 .hover-p:hover > .mostra{

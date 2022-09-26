@@ -72,7 +72,7 @@
 }
 
 .padding-giu{
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 .half-width{
@@ -104,6 +104,11 @@ header{
 .testa, .t-sin, .t-dx, .dropazzurro{
     display: flex;
     align-items: center;
+}
+
+.padding-ok > *{
+    padding: 30px 5px 25px 5px;
+    margin: 0 20px;
 }
 
 .margin-ok > *{
@@ -390,6 +395,14 @@ h4{
     border-bottom: 1px solid #999999;
 }
 
+.hover-p{
+    display: block;
+}
+
+.mostra{
+    display: none;
+}
+
 /* Footer */
 footer{
     background-color: black;
@@ -419,6 +432,28 @@ footer{
 .grey{
     color: #999999;
 }
+
+/* Hover */
+.t-sin > span:hover, .t-dx > span:hover{
+    border-bottom: 1px solid black;
+}
+
+.botton-blue:hover{
+    background-color: #378CFF;
+}
+
+.botton-white:hover{
+    color: gray;
+}
+
+.hover-p:hover > .mostra{
+    display: block;
+}
+
+.hover-i:hover > .fa-angle-down{
+    transform: rotate(180deg);
+}
+
 
 
 

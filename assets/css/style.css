@@ -76,7 +76,15 @@
 }
 
 .half-width{
-    width: 50%;
+    width: 60%;
+}
+
+.filter{
+    filter: invert(1);
+}
+
+.overflow{
+    overflow: auto;
 }
 
 /* header */
